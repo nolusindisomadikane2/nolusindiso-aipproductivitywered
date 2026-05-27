@@ -6,8 +6,8 @@ import {
   ListChecks,
   Search,
   MessagesSquare,
-  Sparkles,
 } from "lucide-react";
+import flowcoreLogo from "@/assets/flowcore-logo.png";
 import {
   Sidebar,
   SidebarContent,
