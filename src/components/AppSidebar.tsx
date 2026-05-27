@@ -6,8 +6,8 @@ import {
   ListChecks,
   Search,
   MessagesSquare,
-  Sparkles,
 } from "lucide-react";
+import flowcoreLogo from "@/assets/flowcore-logo.png";
 import {
   Sidebar,
   SidebarContent,
@@ -37,9 +37,13 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader>
         <Link to="/" className="flex items-center gap-2 px-2 py-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <Sparkles className="h-4 w-4" />
-          </div>
+          <img
+            src={flowcoreLogo}
+            alt="Flowcore logo"
+            width={32}
+            height={32}
+            className="h-8 w-8 rounded-lg"
+          />
           <div className="flex flex-col leading-tight group-data-[collapsible=icon]:hidden">
             <span className="text-sm font-semibold">Flowcore</span>
             <span className="text-xs text-muted-foreground">AI Workplace</span>
