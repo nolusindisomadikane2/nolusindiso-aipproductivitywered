@@ -70,8 +70,9 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter>
-        <div className="px-2 py-2 text-[10px] leading-snug text-muted-foreground group-data-[collapsible=icon]:hidden">
-          AI outputs may be inaccurate. Review before sending or sharing.
+        <div className="space-y-1 px-2 py-2 text-[10px] leading-snug text-muted-foreground group-data-[collapsible=icon]:hidden">
+          <p>AI outputs may be inaccurate. Review before sending or sharing.</p>
+          <p>© {new Date().getFullYear()} Nolusindiso Madikane. All rights reserved.</p>
         </div>
       </SidebarFooter>
     </Sidebar>
