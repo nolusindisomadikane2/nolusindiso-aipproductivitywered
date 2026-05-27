@@ -4,6 +4,40 @@ Flowcore is a modern SaaS-style workspace that helps professionals automate ever
 
 © Nolusindiso Madikane. All rights reserved.
 
+## 📌 Project Overview
+
+Flowcore is an AI-powered workplace productivity assistant designed for professionals, teams, and small businesses. It centralizes the most common knowledge-work tasks — writing emails, summarizing meetings, planning work, researching topics, and answering ad-hoc questions — into a single clean SaaS dashboard powered by large language models. Instead of jumping between ChatGPT tabs, note apps, and email drafts, users get one consistent, branded workspace with structured prompts and editable AI outputs.
+
+## ❗ Problem Statement
+
+Modern professionals lose hours every week to repetitive, low-leverage work: drafting routine emails, cleaning up meeting notes, turning vague goals into actionable plans, and gathering background research. Existing AI tools are powerful but fragmented — they require users to craft prompts from scratch, copy outputs between apps, and trust raw results without guardrails. There is no lightweight, role-agnostic workspace that packages these everyday tasks into ready-to-use, responsible AI workflows.
+
+## 💡 Solution Statement
+
+Flowcore solves this by providing a unified, opinionated AI workspace with purpose-built tools for the highest-impact workplace tasks. Each tool ships with a structured prompt template, sensible defaults, and an editable output area so users can refine results before using them. A persistent Responsible AI disclaimer reminds users to review outputs and avoid sharing sensitive data, making AI productivity safer and more accessible — without forcing users to become prompt engineers.
+
+## 🎯 Project Objectives
+
+- Reduce time spent on routine writing, summarizing, and planning tasks by at least 50%.
+- Provide a single, consistent UI for multiple AI workflows instead of scattered tools.
+- Make AI outputs easy to review, edit, and reuse — never "take it or leave it".
+- Promote responsible AI use through clear disclaimers and safe-by-default UX.
+- Deliver a modern, responsive SaaS experience that works on desktop and mobile.
+
+## ✅ Core Functional Requirements
+
+1. **Smart Email Generator** — Generate professional emails from a short brief, with editable output and tone control.
+2. **Meeting Notes Summarizer** — Convert raw notes or transcripts into clean summaries, key decisions, and action items.
+3. **AI Task Planner** — Break a high-level goal into a structured, prioritized task list with suggested next steps.
+4. **AI Research Assistant** — Produce concise research briefs on any topic with key points and suggested follow-ups.
+5. **AI Chatbot Interface** — Free-form conversational assistant for quick questions, brainstorming, and clarifications.
+6. **Modern Dashboard UI** — Clean SaaS-style home with quick access to all AI tools.
+7. **Sidebar Navigation** — Persistent, collapsible sidebar to switch between tools on desktop and mobile.
+8. **Responsive Design** — Fully usable on mobile, tablet, and desktop breakpoints.
+9. **Structured AI Prompts** — Each tool wraps user input in a tuned system prompt for consistent results.
+10. **Editable AI Outputs** — All generated content is rendered in editable text areas so users can refine before using.
+11. **Responsible AI Disclaimer** — Visible disclaimer reminding users to review outputs and avoid sharing confidential data.
+
 ## ✨ Features
 
 - **Smart Email Generator** — Draft professional emails from a short prompt.
