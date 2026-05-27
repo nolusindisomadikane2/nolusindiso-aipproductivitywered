@@ -102,8 +102,8 @@ function RootComponent() {
             </main>
           </div>
         </div>
-        <Toaster richColors position="top-right" />
-      </QueryClientProvider>
-    </SidebarProvider>
+      </SidebarProvider>
+      <Toaster richColors position="top-right" />
+    </QueryClientProvider>
   );
 }
